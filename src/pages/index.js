@@ -14,7 +14,7 @@ const IndexPage = () => {
       <Link to="/about">About</Link>
     </main>
     */
-    <Layout pageTitle="Home Page">
+    <Layout pageTitle="Giant Dog">
       <p>Man CSS is a bit tough to figure out. Is anything changing still bob???</p>
     </Layout>
   )

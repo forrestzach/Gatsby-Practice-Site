@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
+import Custom_header from './custom_header.js'
 import { 
     container, 
     heading,
@@ -29,10 +30,31 @@ const navLinkItem = {
   paddingright: 2rem,
 
 }*/
-//any changes?
+//what
+//any changes?s
 const Layout = ({ pageTitle, children }) => {
   return (
+    
+      
+    //this following bit of code went directly after the main classeName={container}> line.
+    //could not figure out how to comment in there for the life of me.
+    /*
+      <h1 className ={custom_header}>
+        headerText = {"fuckin work already"}
+      
+      </h1>
+    */
+    
+
+
+    
     <main className={container}>
+      
+      <Custom_header headerText = "cheese whizz">
+        BOTTOM TEXT
+      </Custom_header>
+      
+      agghhh
       
       <nav className={profileBlock}>
 
@@ -52,7 +74,9 @@ const Layout = ({ pageTitle, children }) => {
           </li>
         </ul>
       </nav>
-      <h1 className={heading}>{pageTitle}</h1>
+      <h1 className={heading}>
+        {pageTitle}
+        </h1>
       {children}
     </main>
   )
