@@ -1,15 +1,29 @@
 import React from 'react'
-import {header} from './custom_header.module.css'
+import { Link } from 'gatsby'
+import {
+    container,
+    menulinks,
+    menulinkitem,
+    menulinktext
+} from './custom_header.module.css'
 
-const Custom_header = ({ headerText, children }) => {
-    
+const Custom_header = ({ children }) => {
     return(
-        <main className={header}>
-            <p> {headerText}</p>
+        <main className={container}>
+            <ul className={menulinks}>
+                <li className={menulinkitem}>
+                    <Link to="/" className={menulinktext}>
+                        <p>Home</p>
+                    </Link>
+                </li>
+                <li className={menulinkitem}>
+                    <Link to="/about" className={menulinktext}>
+                        <p>About</p>
+                    </Link>
+                </li>
+            </ul>
             {children}
         </main>
-        
     )
-    
 }
 export default Custom_header

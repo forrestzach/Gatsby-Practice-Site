@@ -1,6 +1,36 @@
-.header{
-    margin: 10;
-    width: 700px;
-    height: 500px;
-    background: rgb(100,100,100);
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
 }
+
+p{
+    margin: 0px;
+    padding: 0;
+}
+
+.menu-links {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-left: 0;
+}
+.menu-link-item {
+    margin: 0px;
+    padding-right: 2rem;
+}
+.menu-link-text {
+    margin: 0px;
+    color: black;
+}
+
+.container{
+    margin: 0px;
+    padding: 0;
+    width: 100vw;
+    height: 50px;
+    background: rgb(235,235,235);
+}
+
