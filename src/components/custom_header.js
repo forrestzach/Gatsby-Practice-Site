@@ -13,12 +13,12 @@ const Custom_header = ({ children }) => {
             <ul className={menulinks}>
                 <li className={menulinkitem}>
                     <Link to="/" className={menulinktext}>
-                        <p>Home</p>
+                        Home
                     </Link>
                 </li>
                 <li className={menulinkitem}>
                     <Link to="/about" className={menulinktext}>
-                        <p>About</p>
+                        About
                     </Link>
                 </li>
             </ul>
