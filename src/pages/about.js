@@ -13,8 +13,8 @@ const AboutPage = () => {
       <p>Hi there! I'm the proud creator of this site, which I built with Gatsby.</p>
     </main>
     */
-    <Layout pageTitle="About Me">
-      <p>Hi there! I'm the proud creator of this site, which I built with Gatsby.According to all known laws of physics, it should be impossible for a bee to fly. Still connected?</p>
+    <Layout pageTitle="About Me" pageText="Hi there! I'm the proud creator of this site, which I built with Gatsby.According to all known laws of physics, it should be impossible for a bee to fly. Still connected?">
+      
     </Layout>
   )
 }
