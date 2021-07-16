@@ -7,10 +7,12 @@ import {
     navLinks,
     navLinkItem,
     navLinkText,
-    profileBlock
+    profileBlock,
+    flexContainer,
+    pageContent
 } from  './layout.module.css'
 
-const Layout = ({ pageTitle, children }) => {
+const Layout = ({ pageTitle, pageText, children }) => {
   return (
     
       
@@ -31,28 +33,34 @@ const Layout = ({ pageTitle, children }) => {
       <Custom_header>
         
       </Custom_header>
-      
-      <nav className={profileBlock}>
+      <div className={flexContainer}>
 
-      </nav>
-      <nav>
-      <title>{pageTitle}</title>
-        <ul className={navLinks}>
-          <li className={navLinkItem}>
-            <Link to="/" className={navLinkText}>
-              Home
-            </Link>
-          </li>
-          <li className={navLinkItem}>
-            <Link to="/about" className={navLinkText}>
-              About
-            </Link>
-          </li>
-        </ul>
-      </nav>
-      <h1 className={heading}>
-        {pageTitle}
-        </h1>
+      
+        <div className={profileBlock}>
+          Column 1
+        </div>
+        <div className={pageContent}>
+          <title>Forrest Zach</title>
+            {/* <ul className={navLinks}>
+              <li className={navLinkItem}>
+                <Link to="/" className={navLinkText}>
+                  Home
+                </Link>
+              </li>
+              <li className={navLinkItem}>
+                <Link to="/about" className={navLinkText}>
+                  About
+                </Link>
+              </li>
+            </ul>
+            */}
+        
+          <h1 className={heading}>
+            {pageTitle}
+            </h1>
+          <body> {pageText} </body>
+        </div>
+      </div>
       {children}
     </main>
   )
