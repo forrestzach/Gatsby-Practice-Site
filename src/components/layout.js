@@ -29,7 +29,7 @@ const Layout = ({ pageTitle, pageText, children }) => {
 
     
     <main className={container}>
-      
+      <title>Forrest Zach</title>
       <Custom_header>
         
       </Custom_header>
@@ -37,10 +37,10 @@ const Layout = ({ pageTitle, pageText, children }) => {
 
       
         <div className={profileBlock}>
-          Column 1
+          Column 1 
         </div>
         <div className={pageContent}>
-          <title>Forrest Zach</title>
+          
             {/* <ul className={navLinks}>
               <li className={navLinkItem}>
                 <Link to="/" className={navLinkText}>

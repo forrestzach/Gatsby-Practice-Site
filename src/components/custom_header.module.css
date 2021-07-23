@@ -1,3 +1,5 @@
+@import '../../src/global.css';
+
 @font-face{
     font-family: 'Metropolis';
     src: local('Metropolis'), url(C:\Users\forre\Desktop\HTML\GatsbyVSCode\gatsbypractice\src\fonts\Metropolis-Black.otf) format('truetype');
@@ -34,7 +36,7 @@ p{
     margin: 0px;
     font-size: 25px;
     font-family: Metropolis;
-    color: rgb(120,120,120);
+    color: var(--gray600);
 }
 
 .container{
@@ -42,6 +44,6 @@ p{
     padding: 0;
     width: 100vw;
     height: 50px;
-    background: rgb(235,235,235);
+    background: var(--gray100);
 }
 

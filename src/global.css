@@ -1,0 +1,22 @@
+:root{
+    --green100: #cdfecd;
+    --green200: #9cfc9c;
+    --green300: #6afb6a;
+    --green400: #4afa4a;
+    --green500: #06f906;
+    --green600: #05c705;
+    --green700: #049504;
+    --green800: #036303;
+    --green900: #013201;
+
+    --gray100: #e6e6e6;
+    --gray200: #cccccc;
+    --gray300: #b3b3b3;
+    --gray400: #999999;
+    --gray500: #808080;
+    --gray600: #666666;
+    --gray700: #4d4d4d;
+    --gray800: #333333;
+    --gray900: #1a1a1a;
+
+}
