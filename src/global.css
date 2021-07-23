@@ -1,14 +1,25 @@
 :root{
-    --green100: #cdfecd;
-    --green200: #9cfc9c;
-    --green300: #6afb6a;
-    --green400: #4afa4a;
-    --green500: #06f906;
-    --green600: #05c705;
-    --green700: #049504;
-    --green800: #036303;
-    --green900: #013201;
-
+    /*Primary green for site, green700 is the origin color*/
+    --green100: #dbf4db;
+    --green200: #adebad;
+    --green300: #84e184;
+    --green400: #5bd75b;
+    --green500: #32cd32;
+    --green600: #28a428;
+    --green700: #228b22;
+    --green800: #145214;
+    --green900: #0a290a;
+    /*Seafoam Green accent color, seafoam300 is the origin color*/
+    --seafoam100: #eafbf2;
+    --seafoam200: #c0f2d9;
+    --seafoam300: #93e9be;
+    --seafoam400: #6be1a6;
+    --seafoam500: #41d88c;
+    --seafoam600: #27be73;
+    --seafoam700: #1e9459;
+    --seafoam800: #166a40;
+    --seafoam900: #0d3f26;
+    /*Set grayscale for site*/
     --gray100: #e6e6e6;
     --gray200: #cccccc;
     --gray300: #b3b3b3;

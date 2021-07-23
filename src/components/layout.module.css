@@ -25,11 +25,13 @@ p{
     margin: 0px;
     margin-left: 0px;
     padding-left: 0px;
-    width: 300px;
+    width: 25%;
+    min-width: 200px;
+    max-width: 350px;
     height: 100vh;
     font-size: 40px;
     font-family: Metropolis;
-    background: var(--green500);
+    background: var(--green700);
     color: rgb(255,255,255);
 }
 
@@ -46,8 +48,44 @@ p{
 
 .heading {
   margin: 0px;
-  font-size:20px;
+  font-size: 20px;
   color: var(--green800);
+}
+
+.profileImage{
+  margin: 15px;
+  width: auto;
+  height: auto;
+}
+
+.nameTitle{
+  text-align: center;
+  color: var(--gray100);
+  font-size: 30px;
+  font-family: Metropolis;
+}
+
+.personalLinks{
+  margin: 0px;
+  
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.personalLinksItem{
+  /*margin-bottom: 15px;
+  margin-top: auto;*/
+}
+
+.personalLinksText{
+  font-size: 25px;
+  color: var(--gray100);
+}
+
+.customSvg{
+  fill: var(--gray100);
 }
 
 
