@@ -80,6 +80,7 @@ p{
 }
 
 .personalLinksText{
+  margin-left: 0px;
   font-size: 25px;
   color: var(--gray100);
 }

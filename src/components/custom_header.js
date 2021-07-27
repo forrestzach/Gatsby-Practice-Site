@@ -21,6 +21,11 @@ const Custom_header = ({ children }) => {
                         About
                     </Link>
                 </li>
+                <li className={menulinkitem}>
+                    <Link to="/about" className={menulinktext}>
+                        Resume
+                    </Link>
+                </li>
             </ul>
             {children}
         </main>
