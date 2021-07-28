@@ -14,6 +14,8 @@ import {
     profileImage,
     nameTitle,
     customSvg,
+    pageContainer,
+    spacer,
 } from  './layout.module.css'
 
 const Layout = ({ pageTitle, pageText, children }) => {
@@ -53,8 +55,8 @@ const Layout = ({ pageTitle, pageText, children }) => {
           </ul>
         </div>
         {/*Actual webpage content data div*/}
-        <div className={pageContent}>
-          
+        <div className={pageContainer}>
+          <div className={pageContent}>
             {/* <ul className={navLinks}>
               <li className={navLinkItem}>
                 <Link to="/" className={navLinkText}>
@@ -69,11 +71,12 @@ const Layout = ({ pageTitle, pageText, children }) => {
             </ul>
             */}
         
-          <h1 className={heading}>
-            {pageTitle}
-            </h1>
-            {/*Having the {children} item in here is critical to have page data transferred from webpage.js files into the formatted layout.*/}
-          <body> {pageText} {children}</body>
+            <h1 className={heading}>
+              {pageTitle}
+              </h1>
+              {/*Having the {children} item in here is critical to have page data transferred from webpage.js files into the formatted layout.*/}
+            <body> {pageText} {children}</body>
+          </div>
         </div>
       </div>
       

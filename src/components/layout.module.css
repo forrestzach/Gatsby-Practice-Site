@@ -58,13 +58,21 @@ p{
 .flex-container {
   display: flex;
 }
+.page-container{
+  width: 75%;
+  background: white;
+}
 
 .page-content{
   margin: 0;
+  max-width: 80%;
+  min-width: 200;
   padding: 25px;
-  font-size: 12px;
+  padding-left: 10%;
+  text-align: left;
+  /* font-size: 20px;
   font-family: Metropolis;
-  font-weight: normal;
+  font-weight: normal; */
 }
 
 .heading {
@@ -87,9 +95,14 @@ p{
 }
 
 .personalLinks{
-  margin: 0px;
-  
-  text-align: left;
+  /* margin: 0px; */
+  margin: auto;
+  width: 100%;
+  padding: 0px;
+  padding-left: auto;
+  padding-right: auto;
+  position: static;
+  /* text-align: left; */
   display: flex;
   flex-direction: column;
   list-style: none;
@@ -101,13 +114,20 @@ p{
 }
 
 .personalLinksText{
-  margin-left: 0px;
+  /* margin-left: 0px; */
+  
   font-size: 25px;
   color: var(--gray100);
 }
 
 .customSvg{
   fill: var(--gray100);
+}
+
+.spacer{
+  width: 100px;
+  height: 5px;
+  color: var(--green(700));
 }
 
 
