@@ -72,10 +72,11 @@ const Layout = ({ pageTitle, pageText, children }) => {
           <h1 className={heading}>
             {pageTitle}
             </h1>
-          <body> {pageText} </body>
+            {/*Having the {children} item in here is critical to have page data transferred from webpage.js files into the formatted layout.*/}
+          <body> {pageText} {children}</body>
         </div>
       </div>
-      {children}
+      
     </main>
   )
 }

@@ -15,6 +15,7 @@ const IndexPage = () => {
 
    //I know there has to be a better way to pass this data, don't judge me
     <Layout pageTitle="Giant Dog" pageText="Man CSS is a bit tough to figure out. Is anything changing still bob???">
+      <body> test text</body>
     </Layout>
   )
 }
