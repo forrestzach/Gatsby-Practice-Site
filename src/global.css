@@ -1,3 +1,27 @@
+@font-face{
+    font-family: 'Metropolis';
+    src: local('Metropolis'), url('./fonts/Metropolis-Bold.otf') format('truetype');
+    font-weight: bold;
+  }
+  
+  @font-face{
+    font-family: 'Metropolis';
+    src: local('Metropolis'), url('./fonts/Metropolis-Medium.otf') format('truetype');
+    font-weight: medium;
+  }
+  
+  @font-face{
+    font-family: 'Metropolis';
+    src: local('Metropolis'), url('./fonts/Metropolis-MediumItalic.otf') format('truetype');
+    font-weight: mediumItalic;
+  }
+  
+  @font-face{
+    font-family: 'Metropolis';
+    src: local('Metropolis'), url('./fonts/Metropolis-Regular.otf') format('truetype');
+    font-weight: normal;
+  }
+
 :root{
     /*Primary green for site, green700 is the origin color*/
     --green100: #dbf4db;
