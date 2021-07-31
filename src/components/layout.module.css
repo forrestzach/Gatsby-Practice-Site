@@ -1,12 +1,16 @@
 @import '../../src/global.css';
 
+html,body{
+  height: 100%;
+}
+
 p{
   margin: 0;
   padding: 0;
-  font-size: 15px;
+  font-size: 16px;
   font-family: Metropolis;
   font-weight: normal; 
-  overflow-x: hidden; 
+  /* overflow-x: hidden;  */
 }
 
 hr{
@@ -15,12 +19,27 @@ hr{
   background-color: var(--green700);
 }
 
-/* h1{
-  font-size: 30px;
+h1{
+  margin: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 0px;
+  font-size: 25px;
   font-family: Metropolis;
   font-weight: bold;
   color: var(--green700);
-} */
+}
+
+h2{
+  margin: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 0px;
+  font-size: 20px;
+  font-family: Metropolis;
+  font-weight: bold;
+  color: var(--seafoam400);
+}
 
 /*
 p{
@@ -30,31 +49,41 @@ p{
   color: rgb(255,0,0);
 }
 */
+.container{
+  height: 100%;
+}
+
 .flex-container {
   display: flex;
+  position: relative;
+  /* align-items: stretch; */
 }
 
 .profileBlock{
-    margin: 0px;
-    margin-left: 0px;
-    padding-left: 0px;
-    width: 25%;
-    min-width: 200px;
-    max-width: 350px;
-    /* height: 100vh; */
-    height: calc(100vh - 50px);
-    font-size: 40px;
-    font-family: Metropolis;
-    font-weight: bold;
-    background: var(--green700);
+  position: relative;
+  margin: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+  width: 25%;
+  min-width: 200px;
+  max-width: 350px;
+  /* height: 100vh; */
+  height: calc(100vh - 50px);
+  /* height: 100vh; */
+  font-size: 40px;
+  font-family: Metropolis;
+  font-weight: bold;
+  background: var(--green700);
+  overflow-y:auto;
 }
 
 .page-container{
   position: relative;
   width: 100%;
   background: white;
-  height: calc(100vh - 50px);
+  /* height: calc(100vh - 50px); */
   overflow-y:auto;
+  
 }
 
 .page-content{
@@ -76,7 +105,9 @@ p{
 }
 
 .heading {
-  font-size: 30px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 32px;
   font-family: Metropolis;
   font-weight: bold;
   color: var(--green800);
@@ -110,36 +141,3 @@ p{
 .customSvg{
   fill: var(--gray100);
 }
-
-
-
-
-/* .container{
-    margin: auto;
-    margin: 0px;
-    max-width: auto;
-    font-family: Arial;
-}
-
-
-.nav-links {
-  margin: 0;
-  margin-left: auto;
-  margin-right: 0;
-  display: flex;
-  list-style: none;
-  padding-left: 0;
-}
-.nav-link-item {
-  margin: 0;
-  margin-left: auto;
-  margin-right: 0;
-  padding-left: 2rem;
-}
-.nav-link-text {
-  margin: 0;
-  margin-left: auto;
-  margin-right: 0;
-  color: black;
-} */
-
