@@ -41,6 +41,17 @@ h2{
   color: var(--seafoam400);
 }
 
+h3{
+  margin: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 0px;
+  font-size: 18px;
+  font-family: Metropolis;
+  font-weight: bold;
+  color: var(--seafoam600);
+}
+
 /*
 p{
   margin: 0;
