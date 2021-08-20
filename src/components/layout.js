@@ -15,6 +15,8 @@ import {
     nameTitle,
     customSvg,
     pageContainer,
+    custFooter,
+    custFooterText,
 } from  './layout.module.css'
 
 const Layout = ({ pageTitle,children }) => {
@@ -66,7 +68,12 @@ const Layout = ({ pageTitle,children }) => {
               forrestzach
               </Link>
             </div>
-          </div>  
+          </div> 
+          <div className={custFooter}>
+            <div className={custFooterText}>
+              © Forrest Zach 2021
+            </div>
+          </div> 
         </div>
         {/*Actual webpage content data div*/}
         <div className={pageContainer}>
