@@ -15,7 +15,7 @@ const AboutPage = () => {
     <p>
       The site you're on right now is fully developed and hosted by yours truly!<br/>
       I have set up a Debian-Linux machine on an old computer which is running a NGINX web server in pairing with a Flask backend.<br/>
-      For front-end I have utilized Gatsby, CSS, and JavaScript.<br/>
+      For front-end I have utilized GatsbyJS, CSS, and JavaScript.<br/>
     </p>
     <br/>
 
@@ -35,8 +35,8 @@ const AboutPage = () => {
     <br/>
     <h2>Puddle - January 25th, 2020</h2>
     <p>
-    A pedestrian's assistant for dodging obstacles or being notified of other campus events.
-    iOS app designed alongside a team of four which was made in Swift, and utilized Radar.io and the Apple Maps SDK for map display.  Best described as a Waze for pedestrians <br/> 
+    A pedestrian's assistant for dodging obstacles or being notified of other campus events.<br/>
+    iOS app designed alongside a team of four which was made in Swift, and utilized Radar.io and the Apple Maps SDK for map display.  Best described as a Waze for pedestrians. <br/> 
     <h3>&gt;My Role</h3>
     Myself and another team member figured out how to setup radar.io, store the data sent in by the users, and send it back to the app.<br/>
     🏆WINNER🏆: Most Creative Usage of Radar.io <br/> 
