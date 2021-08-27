@@ -86,8 +86,7 @@ const Layout = ({ pageTitle,children }) => {
             {/*Having the {children} item in here is critical to have page data transferred from webpage.js files into the formatted layout.*/}
             {children}
             
-          </div>
-          <div className={logoFooterContainer}>
+            <div className={logoFooterContainer}>
             <div className={logoFooterSvg}>
               <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
               width="100" height="100" viewBox="0 0 300 300"
@@ -114,6 +113,8 @@ const Layout = ({ pageTitle,children }) => {
               </svg>     
             </div>
           </div>
+          </div>
+          
         </div>
       </div>
       
