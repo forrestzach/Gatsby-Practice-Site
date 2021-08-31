@@ -7,6 +7,9 @@
   Gatsby minimal starter
 </h1>
 
+Hello, this is Forrest Zach's Portfolio Site!
+You are currently enjoying V1, please explore the links and see what I have to offer.
+
 ## 🚀 Quick start
 
 1.  **Create a Gatsby site.**
