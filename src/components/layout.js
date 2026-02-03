@@ -32,7 +32,7 @@ const Layout = ({ pageTitle,children }) => {
         <div className={profileBlock}>          
           <div className={profileImage}>
              <StaticImage
-              alt="Aha there you are."
+              alt="Me"
               src="../images/ForrestZachClemsonIDSQUARE.jpg"
               />
           </div>
@@ -73,7 +73,7 @@ const Layout = ({ pageTitle,children }) => {
           </div> 
           <div className={custFooter}>
             <div className={custFooterText}>
-              © Forrest Zach 2021
+              © Forrest Zach 2026
             </div>
           </div> 
         </div>

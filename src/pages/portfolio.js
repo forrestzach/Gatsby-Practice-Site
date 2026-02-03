@@ -10,13 +10,33 @@ const AboutPage = () => {
     <hr/>
     <h1>Personal Projects</h1>
     <h2>
+      Robotic Arm
+    </h2>
+    <p>
+      I designed, built, and programmed a 5 Degree of Freedom robotic arm as a solo passion project to learn more about robotics. It has been an extremely fulfilling experience and this is just the first iteration. It was designed to have a payload capacity of 500g at the end effector (gripper) which was successfully achieved.<br/>
+      The vast majority of the parts were designed in CAD and then 3D printed in PLA, but of course the motors, electronics, and hardware were all purchased. To get the torque necessary for the arm to actually work I utilize a 2-stage planetary gearbox to get a 21:1 gear reduction for each of the joints. <br/>
+      I built it iteratively rather than designing everything up front which allowed me to adjust as I learned. The "eureka" moment of the project was shrinking my original gearbox design to make it smaller and lighter for the other joints, while I left the stronger but large and bulky initial design as the base joint. <br/>
+      It is operated by a Raspberry Pi driving a Arduino Mega microcontroller where I can control it using a simple Python GUI to move each joint individually or input coordinates for all the joints to move using inverse kinematics. <br/>
+      Additionally, I made a simple serial protocol for the two boards to communicate, sharing position data and other instructions.<br/>
+
+    </p>
+    <h2>
+      Cryptocurrency Arbitrage Tracker
+    </h2>
+    <p>
+      
+    </p>
+
+    <h2>
       Portfolio Site (fzach.com)
     </h2>
     <p>
-      The site you're on right now is fully developed and hosted by yours truly!<br/>
-      I have set up a Debian-Linux machine on an old computer which is running a NGINX web server in pairing with a Flask backend.<br/>
+      The site you're on right now is fully developed and (used to be) hosted by yours truly!<br/>
+      I had set up a Debian-Linux machine on an old computer which was running a NGINX web server in pairing with a Flask backend to serve the pages.<br/>
+      My ISP no longer allows me to host public facing webservers so instead this is now running on Github Pages.<br/>
       For front-end I have utilized GatsbyJS, CSS, and JavaScript.<br/>
     </p>
+    <iframe width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <br/>
 
     <hr/>

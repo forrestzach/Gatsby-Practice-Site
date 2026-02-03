@@ -20,10 +20,10 @@ const IndexPage = () => {
       <hr/>
       <h1>Experience</h1>
       <h2>Languages/Libraries</h2>
-      <h3>Java, C++, C, Python, HTML, CSS, JavaScript, React, GatsbyJS</h3>
+      <h3>Python, C++, C, Java, SQL, Flask, HTML, CSS, JavaScript, React, GatsbyJS, Ada</h3>
       <br/>
       <h2>Other Technologies</h2>
-      <h3>Debian, Apache, NGINX, Flask, Git</h3>
+      <h3>NGINX, Docker, Git, Linux, Debian, Apache</h3>
 
     </Layout>
   )
