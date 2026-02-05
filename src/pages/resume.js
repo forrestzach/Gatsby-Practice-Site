@@ -10,10 +10,10 @@ const ResumePage = () => {
       <h2>Developer II (January 2026 -- Current)</h2>
       <h2>Developer I   (June 2023 -- December 2025)</h2>
       <p>
-        - Created a vehicle routing problem solver using Python and Google OR-tools for creating multi-stop shipments with client data that has shown annual cost savings of up to 63% on real shipments. <br/>
-        - Refactored essential data processing library generating a 18x processing speedup for multiple tools. <br/>
+        - Created a vehicle routing problem solver using Python and Google OR-tools for creating multi-stop shipments with client data that has shown <u>annual cost savings of up to 63%</u> on real shipments. <br/>
+        - Refactored essential data processing library generating a <u>18x processing speedup</u> for multiple tools. <br/>
         - Rebuilt internal Flask web application for rating truckload shipments with UI overhaul, implementing multithreading, and utilizing the data processing speedup to expand file size limit 10x. <br/>
-        - Developed Python tool which combines Sage and Cargowise data, allowing staff to easily check on the status of in-transit shipments across all clients, simplifying a 30 hr/week task to just 3 hr/week. <br/>
+        - Developed Python tool which combines Sage and Cargowise data, allowing staff to easily check on the status of in-transit shipments across all clients, simplifying a 30 hr/week task to <u>just 3 hr/week</u>. <br/>
         - Refactored main data upload tool architecture to improve Docker and speed up processing time.
       </p>
       <br/>

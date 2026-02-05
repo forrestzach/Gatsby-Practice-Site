@@ -9,21 +9,23 @@ const IndexPage = () => {
       <h1>About Me</h1>
       
       <p>
-        I like to occupy my time with computers, software, robotics, and logic. <br/>
-        In my career, I am looking into the future to see where software and business intersect.<br/>
-        <h3>Education details:</h3>
-        I'm a Computer Science major at Clemson University, expecting to graduate in 2023. 
-        Additionally, I am also pursuing a Business Administration Minor which has been a lot more interesting than I initially expected.  
-        It has pulled back the curtain on how businesses are run from a variety of perspectives within any given company such as management, financing, and accounting. 
+        I like to occupy my time with computers, robotics, and software. <br/>
+        In my career, I am looking to the future to find opportunities where robotics can positively impact our day-to-day lives.<br/>
+        <h3>Formal Education:</h3>
+        I received my Computer Science degree from Clemson University in May of 2023. <br/>
+        Some notable classes include: Machine Learning, Distributed & Cluster Computing, GPU Programming, VR Programming, Networks & Network Programming, Senior Computing Practicum (Capstone)<br/>
+        <br/>
+        I also worked towards a Business Administration Minor during my college career which pulled back the curtain on how businesses are run from a variety of perspectives such as management, financing, and accounting.<br/>
+        <h3>Self-Taught Education:</h3>
       </p>
       <br/>
       <hr/>
       <h1>Experience</h1>
       <h2>Languages/Libraries</h2>
-      <h3>Python, C++, C, Java, SQL, Flask, HTML, CSS, JavaScript, React, GatsbyJS, Ada</h3>
+      <h3>Python, C++, C, Java, SQL, Flask, HTML, CSS, JavaScript, React, Arduino(C), GatsbyJS, Ada</h3>
       <br/>
       <h2>Other Technologies</h2>
-      <h3>NGINX, Docker, Git, Linux, Debian, Apache</h3>
+      <h3>NGINX, Docker, Git, CAD, Linux, Debian, Apache</h3>
 
     </Layout>
   )
