@@ -55,3 +55,21 @@
     --gray900: #1a1a1a;
 
 }
+
+.media_container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.media_photo, .media_video {
+    /* Optional: sets a background color and some padding to visualize the divs */
+    background-color: #f1f1f1;
+    /* padding: 20px; */
+    /* Optional: allows divs to grow equally to fill the container width */
+    flex: 1; 
+}
+
+.media_photo {
+    /* Optional: adds margin between the two divs if not using gap */
+    margin-right: 10px; 
+}

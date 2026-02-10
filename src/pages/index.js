@@ -17,6 +17,8 @@ const IndexPage = () => {
         <br/>
         I also worked towards a Business Administration Minor during my college career which pulled back the curtain on how businesses are run from a variety of perspectives such as management, financing, and accounting.<br/>
         <h3>Self-Taught Education:</h3>
+        I have done extensive work in Computer-Aided-Design (CAD) using software such as Solidworks and Fusion 360, which has allowed me to 3D print all sorts of useful items as well as make my robotics projects a reality. Check out my Portfolio page to learn more!<br/>
+        In addition, I have learned a lot about electronics using Arduinos, motors, and motor drivers to operate these robotics projects which has been extremely fulfilling. <br/>
       </p>
       <br/>
       <hr/>
@@ -25,7 +27,7 @@ const IndexPage = () => {
       <h3>Python, C++, C, Java, SQL, Flask, HTML, CSS, JavaScript, React, Arduino(C), GatsbyJS, Ada</h3>
       <br/>
       <h2>Other Technologies</h2>
-      <h3>NGINX, Docker, Git, CAD, Linux, Debian, Apache</h3>
+      <h3>NGINX, Docker, Git, CAD (Fusion 360, Solidworks), Linux, Debian, Apache</h3>
 
     </Layout>
   )
